@@ -6,9 +6,13 @@ $(document).ready(function()
 		var message = "<p>" + msg + "<\p>";
 		$("#mainSection").append (message);
 	}
+		var scores = [];
+		var userChoice = $("#userInput").val();
+		console.log (userChoice);
+		scores.push(userChoice);
 
 	// list of quiz scores
-	var scores = [46, 41, 34, 33, 30, 30, 28, 27, 25, 21];
+	
 
 	printToPage("Initial Array before BubbleSort " + scores);
 
