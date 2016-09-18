@@ -6,10 +6,10 @@ $(document).ready(function()
 		var message = "<p>" + msg + "<\p>";
 		$("#mainSection").append (message);
 	}
-		var scores = [];
-		var userChoice = $("#userInput").val();
-		console.log (userChoice);
-		scores.push(userChoice);
+		var scores = [545,45,45,65,6,7,78,9,0,-0,-09,98,7];
+		//var userChoice = $("#userInput").val();
+		//console.log (userChoice);
+		//scores.push(userChoice);
 
 	// list of quiz scores
 	
